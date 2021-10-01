@@ -154,7 +154,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
-		text-decoration: none !important;
+		text-decoration: none;
 		color: inherit;
 	}
 
@@ -552,6 +552,17 @@ input, select, textarea {
 
 	input[type="radio"] + label:before {
 		border-radius: 100%;
+	}
+
+	.links {
+		display: flex;
+		justify-content: space-around;
+		padding-bottom: 30px;
+	}
+	.button-links {
+		text-decoration: none;
+		border: 1px solid white;
+		border-radius: 8px;
 	}
 
 	::-webkit-input-placeholder {
